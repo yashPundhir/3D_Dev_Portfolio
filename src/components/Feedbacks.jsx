@@ -50,19 +50,21 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
 	return (
-		<div className="mt-12 bg-black-100 rounded-[20px]">
+		<div className="mt-12 bg-black-100 rounded-[25px] border border-amber-300">
 			<div
-				className={`${styles.padding} bg-tertiary rounded-t-2xl min-h-[300px] `}
+				className={`${styles.padding} bg-tertiary rounded-t-[25px] min-h-[300px]`}
 			>
 				<motion.div
 					variants={textVariant()}
-					className="flex flex-col justify-center items-center"
+					className="flex flex-col justify-center items-center "
 				>
 					<p className={styles.sectionSubText}>What Others say</p>
 					<h2 className={styles.sectionHeadText}>Testimonials</h2>
 				</motion.div>
 			</div>
-			<div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
+			<div
+				className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 justify-center items-center`}
+			>
 				{testimonials.map((testimonial, index) => (
 					<FeedbackCard key={testimonial.name} index={index} {...testimonial} />
 				))}
