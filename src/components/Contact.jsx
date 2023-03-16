@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import Swal from "sweetalert2";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -24,6 +24,36 @@ const Contact = () => {
 		setForm({ ...form, [name]: value });
 	};
 
+	const successBox = () => {
+		Swal.fire({
+			icon: "success",
+			iconColor: "#10B981",
+			titleText: "Thank you for your message!",
+			text: "I will get back to you as soon as possible.",
+			background: "#100d25",
+			color: "#fff",
+			width: "550px",
+			confirmButtonColor: "#3B82F6",
+			showCloseButton: true,
+			padding: "20px",
+		});
+	};
+
+	const errorBox = () => {
+		Swal.fire({
+			icon: "error",
+			titleText: "Oops...",
+			text: "Seems like something went wrong!",
+			background: "#100d25",
+			color: "#fff",
+			width: "550px",
+			confirmButtonColor: "#FB7185",
+			confirmButtonText: "Close",
+			showCloseButton: true,
+			padding: "20px",
+		});
+	};
+
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		setLoading(true);
@@ -43,7 +73,8 @@ const Contact = () => {
 			.then(
 				() => {
 					setLoading(false);
-					alert("Thank You. I'll get back to you as soon as possible.");
+					//alert("Thank You. I'll get back to you as soon as possible.");
+					successBox();
 					setForm({
 						name: "",
 						email: "",
@@ -53,7 +84,8 @@ const Contact = () => {
 				(error) => {
 					setLoading(false);
 					console.log(error);
-					alert("Something Went wrong");
+					//alert("Something Went wrong");
+					errorBox();
 				}
 			);
 	};
