@@ -1,11 +1,13 @@
+import { useState } from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
 import livelink from "../assets/livelink.svg";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { tailwindProjects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({
 	index,
@@ -77,6 +79,12 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+	// const [active, setActive] = useState(false);
+
+	// function toggleActive() {
+	// 	setActive(!active);
+	// }
+
 	return (
 		<>
 			<motion.div
@@ -99,8 +107,46 @@ const Works = () => {
 					and manage projects effectively.
 				</motion.p>
 			</div>
+			<div>
+				<ul
+					className={`list-none flex justify-center items-center gap-10 mt-16 text-2xl font-medium `}
+				>
+					<Link to="/htmlcss">
+						<li
+							className={` text-secondary hover:text-white`}
+							// onClick={toggleActive}
+						>
+							HTML & CSS
+						</li>
+					</Link>
+					<Link to="/tailwindcss">
+						<li
+							className={` text-secondary hover:text-white`}
+							//onClick={toggleActive}
+						>
+							Tailwind CSS
+						</li>
+					</Link>
+					<Link to="/javascript">
+						<li
+							className={` text-secondary hover:text-white`}
+							//onClick={toggleActive}
+						>
+							JavaScript
+						</li>
+					</Link>
+					<Link to="/react">
+						<li
+							className={` text-secondary hover:text-white`}
+							//onClick={toggleActive}
+						>
+							React
+						</li>
+					</Link>
+				</ul>
+			</div>
 			<div className="mt-20  flex flex-wrap gap-7  justify-center items-center">
-				{projects.map((project, index) => (
+				{tailwindProjects.map((project, index) => (
 					<ProjectCard key={`project-${index}`} index={index} {...project} />
 				))}
 			</div>
