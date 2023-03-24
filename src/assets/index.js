@@ -23,7 +23,7 @@ import threejs from "./tech/threejs.svg";
 import express from "./tech/expressjs.png";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+//import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import cognizant from "./company/cognizant.png";
@@ -31,6 +31,9 @@ import cognizant from "./company/cognizant.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import paytm from "./paytm.avif";
+import shopify from "./shopify.avif";
+import rode from "./rode.avif";
 
 export {
 	ylogo,
@@ -56,11 +59,13 @@ export {
 	threejs,
 	express,
 	meta,
-	shopify,
 	starbucks,
 	tesla,
 	cognizant,
 	carrent,
 	jobit,
 	tripguide,
+	shopify,
+	paytm,
+	rode,
 };
