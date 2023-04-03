@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import livelink from "../assets/livelink.svg";
 import { SectionWrapper } from "../hoc";
-import { tailwindProjects } from "../constants";
+import { htmlCssProjects, tailwindProjects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { Link } from "react-router-dom";
 
@@ -85,6 +85,8 @@ const Works = () => {
 	// 	setActive(!active);
 	// }
 
+	const [activeProjects, setActiveProjects] = useState(htmlCssProjects);
+
 	return (
 		<>
 			<motion.div
@@ -114,6 +116,9 @@ const Works = () => {
 					<Link to="/htmlcss">
 						<li
 							className={` text-secondary hover:text-white`}
+							onClick={() => {
+								setActiveProjects(htmlCssProjects);
+							}}
 							// onClick={toggleActive}
 						>
 							HTML & CSS
@@ -122,6 +127,9 @@ const Works = () => {
 					<Link to="/tailwindcss">
 						<li
 							className={` text-secondary hover:text-white`}
+							onClick={() => {
+								setActiveProjects(tailwindProjects);
+							}}
 							//onClick={toggleActive}
 						>
 							Tailwind CSS
@@ -146,7 +154,7 @@ const Works = () => {
 				</ul>
 			</div>
 			<div className="mt-20  flex flex-wrap gap-7  justify-center items-center">
-				{tailwindProjects.map((project, index) => (
+				{activeProjects.map((project, index) => (
 					<ProjectCard key={`project-${index}`} index={index} {...project} />
 				))}
 			</div>
