@@ -22,6 +22,22 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import express from "./tech/expressjs.png";
 
+import street from "./htmlcss/street.avif";
+import food from "./htmlcss/food.avif";
+import law from "./htmlcss/law.avif";
+import digital from "./htmlcss/digital.avif";
+import crypto from "./htmlcss/crypto.avif";
+import plant from "./htmlcss/plant.avif";
+import product from "./htmlcss/product.avif";
+import webdesign from "./htmlcss/webdesign.avif";
+import developer from "./htmlcss/developer.avif";
+import interior from "./htmlcss/interior.avif";
+import hosting from "./htmlcss/hosting.avif";
+import business from "./htmlcss/business.avif";
+import saas from "./htmlcss/saas.avif";
+import dance from "./htmlcss/dance.avif";
+import productdesign from "./htmlcss/productdesign.avif";
+
 import meta from "./company/meta.png";
 //import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -68,4 +84,19 @@ export {
 	shopify,
 	paytm,
 	rode,
+	street,
+	food,
+	law,
+	digital,
+	crypto,
+	plant,
+	product,
+	webdesign,
+	developer,
+	interior,
+	hosting,
+	business,
+	saas,
+	dance,
+	productdesign,
 };
