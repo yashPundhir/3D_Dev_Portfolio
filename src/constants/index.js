@@ -25,6 +25,21 @@ import {
 	shopify,
 	paytm,
 	rode,
+	street,
+	food,
+	law,
+	digital,
+	crypto,
+	plant,
+	product,
+	webdesign,
+	developer,
+	interior,
+	hosting,
+	business,
+	saas,
+	dance,
+	productdesign,
 	threejs,
 	express,
 } from "../assets";
@@ -285,60 +300,12 @@ const projects = [
 
 const htmlCssProjects = [
 	{
-		name: "Car Rent",
+		name: "Street Style Landing Page",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
 		tags: [
 			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "mongodb",
-				color: "green-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "pink-text-gradient",
-			},
-		],
-		image: carrent,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
-	},
-	{
-		name: "Job IT",
-		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "restapi",
-				color: "green-text-gradient",
-			},
-			{
-				name: "scss",
-				color: "pink-text-gradient",
-			},
-		],
-		image: jobit,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
-	},
-	{
-		name: "Trip Guide",
-		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-		tags: [
-			{
-				name: "nextjs",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "supabase",
+				name: "html",
 				color: "green-text-gradient",
 			},
 			{
@@ -346,9 +313,265 @@ const htmlCssProjects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
+		image: street,
+		source_code_link:
+			"https://github.com/yashPundhir/Street_Style_Landing_Page",
+		live_link: "https://street-style-landing-page-sj.netlify.app/",
+	},
+	{
+		name: "Food Restaurant HomePage",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: food,
+		source_code_link: "https://github.com/yashPundhir/Food_Restaurant_HomePage",
+		live_link: "https://food-restaurant-homepage-sj.netlify.app/",
+	},
+	{
+		name: "Law HomePage",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: law,
+		source_code_link: "https://github.com/yashPundhir/Law_HomePage",
+		live_link: "https://law-homepage-sj.netlify.app/",
+	},
+	{
+		name: "Digital Marketing HomePage",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: digital,
+		source_code_link:
+			"https://github.com/yashPundhir/Digital_Marketing_HomePage",
+		live_link: "https://digital-marketing-homepage-sj.netlify.app/",
+	},
+	{
+		name: "Crypto Landing Page",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: crypto,
+		source_code_link: "https://github.com/yashPundhir/Crypto_Landing_Page",
+		live_link: "https://crypto-landing-page-sj.netlify.app/",
+	},
+	{
+		name: "Plant HomePage",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: plant,
+		source_code_link: "https://github.com/yashPundhir/Plant_HomePage",
+		live_link: "https://plant-homepage-sj.netlify.app/",
+	},
+	{
+		name: "Product HomePage",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: product,
+		source_code_link: "https://github.com/yashPundhir/Product_HomePage",
+		live_link: "https://product-homepage-sj.netlify.app/",
+	},
+	{
+		name: "Web Design Landing Page",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: webdesign,
+		source_code_link: "https://github.com/yashPundhir/Web_Design_Landing_Page",
+		live_link: "https://web-design-landing-page-sj.netlify.app/",
+	},
+	{
+		name: "Developer Landing Page",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: developer,
+		source_code_link: "https://github.com/yashPundhir/Developer_Landing_Page",
+		live_link: "https://developer-landing-page-sj.netlify.app/",
+	},
+	{
+		name: "Interior Design Landing Page",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: interior,
+		source_code_link:
+			"https://github.com/yashPundhir/Interior_Design_Landing_Page",
+		live_link: "https://interior-design-landing-page-sj.netlify.app/",
+	},
+	{
+		name: "Hosting Landing Page",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: hosting,
+		source_code_link: "https://github.com/yashPundhir/Hosting_Landing_Page",
+		live_link: "https://hosting-landing-page-sj.netlify.app/",
+	},
+	{
+		name: "Business Landing Page",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: business,
+		source_code_link: "https://github.com/yashPundhir/Business_Landing_Page",
+		live_link: "https://business-landing-page-sj.netlify.app/",
+	},
+	{
+		name: "SAAS Landing Page",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: saas,
+		source_code_link: "https://github.com/yashPundhir/SAAS_Landing_Page",
+		live_link: "https://saas-landing-page-sj.netlify.app/",
+	},
+	{
+		name: "Dance HomePage",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: dance,
+		source_code_link: "https://github.com/yashPundhir/Dance_HomePage",
+		live_link: "https://dance-homepage-sj.netlify.app/",
+	},
+	{
+		name: "Product Design Landing Page",
+		description:
+			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+		tags: [
+			{
+				name: "html",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: productdesign,
+		source_code_link:
+			"https://github.com/yashPundhir/Product_Design_Landing_Page",
+		live_link: "https://product-design-landing-page-sj.netlify.app/",
 	},
 ];
 
@@ -567,4 +790,5 @@ export {
 	testimonials,
 	projects,
 	tailwindProjects,
+	htmlCssProjects,
 };
