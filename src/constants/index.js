@@ -229,186 +229,186 @@ const testimonials = [
 	},
 ];
 
-const projects = [
-	{
-		name: "Car Rent",
-		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "mongodb",
-				color: "green-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "pink-text-gradient",
-			},
-		],
-		image: carrent,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
-	},
-	{
-		name: "Job IT",
-		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "restapi",
-				color: "green-text-gradient",
-			},
-			{
-				name: "scss",
-				color: "pink-text-gradient",
-			},
-		],
-		image: jobit,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
-	},
-	{
-		name: "Trip Guide",
-		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-		tags: [
-			{
-				name: "nextjs",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "supabase",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
-	},
-];
+// const projects = [
+// 	{
+// 		name: "Car Rent",
+// 		description:
+// 			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+// 		tags: [
+// 			{
+// 				name: "react",
+// 				color: "blue-text-gradient",
+// 			},
+// 			{
+// 				name: "mongodb",
+// 				color: "green-text-gradient",
+// 			},
+// 			{
+// 				name: "tailwind",
+// 				color: "pink-text-gradient",
+// 			},
+// 		],
+// 		image: carrent,
+// 		source_code_link: "https://github.com/",
+// 		live_link: "https://google.com/",
+// 	},
+// 	{
+// 		name: "Job IT",
+// 		description:
+// 			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+// 		tags: [
+// 			{
+// 				name: "react",
+// 				color: "blue-text-gradient",
+// 			},
+// 			{
+// 				name: "restapi",
+// 				color: "green-text-gradient",
+// 			},
+// 			{
+// 				name: "scss",
+// 				color: "pink-text-gradient",
+// 			},
+// 		],
+// 		image: jobit,
+// 		source_code_link: "https://github.com/",
+// 		live_link: "https://google.com/",
+// 	},
+// 	{
+// 		name: "Trip Guide",
+// 		description:
+// 			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+// 		tags: [
+// 			{
+// 				name: "nextjs",
+// 				color: "blue-text-gradient",
+// 			},
+// 			{
+// 				name: "supabase",
+// 				color: "green-text-gradient",
+// 			},
+// 			{
+// 				name: "css",
+// 				color: "pink-text-gradient",
+// 			},
+// 		],
+// 		image: tripguide,
+// 		source_code_link: "https://github.com/",
+// 		live_link: "https://google.com/",
+// 	},
+// ];
 
 const htmlCssProjects = [
-	{
-		name: "Street Style Landing Page",
-		description:
-			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
-		tags: [
-			{
-				name: "html",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: street,
-		source_code_link:
-			"https://github.com/yashPundhir/Street_Style_Landing_Page",
-		live_link: "https://street-style-landing-page-sj.netlify.app/",
-	},
-	{
-		name: "Food Restaurant HomePage",
-		description:
-			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
-		tags: [
-			{
-				name: "html",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: food,
-		source_code_link: "https://github.com/yashPundhir/Food_Restaurant_HomePage",
-		live_link: "https://food-restaurant-homepage-sj.netlify.app/",
-	},
-	{
-		name: "Law HomePage",
-		description:
-			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
-		tags: [
-			{
-				name: "html",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: law,
-		source_code_link: "https://github.com/yashPundhir/Law_HomePage",
-		live_link: "https://law-homepage-sj.netlify.app/",
-	},
-	{
-		name: "Digital Marketing HomePage",
-		description:
-			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
-		tags: [
-			{
-				name: "html",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: digital,
-		source_code_link:
-			"https://github.com/yashPundhir/Digital_Marketing_HomePage",
-		live_link: "https://digital-marketing-homepage-sj.netlify.app/",
-	},
-	{
-		name: "Crypto Landing Page",
-		description:
-			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
-		tags: [
-			{
-				name: "html",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: crypto,
-		source_code_link: "https://github.com/yashPundhir/Crypto_Landing_Page",
-		live_link: "https://crypto-landing-page-sj.netlify.app/",
-	},
-	{
-		name: "Plant HomePage",
-		description:
-			"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
-		tags: [
-			{
-				name: "html",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: plant,
-		source_code_link: "https://github.com/yashPundhir/Plant_HomePage",
-		live_link: "https://plant-homepage-sj.netlify.app/",
-	},
+	// {
+	// 	name: "Street Style Landing Page",
+	// 	description:
+	// 		"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+	// 	tags: [
+	// 		{
+	// 			name: "html",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "css",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: street,
+	// 	source_code_link:
+	// 		"https://github.com/yashPundhir/Street_Style_Landing_Page",
+	// 	live_link: "https://street-style-landing-page-sj.netlify.app/",
+	// },
+	// {
+	// 	name: "Food Restaurant HomePage",
+	// 	description:
+	// 		"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+	// 	tags: [
+	// 		{
+	// 			name: "html",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "css",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: food,
+	// 	source_code_link: "https://github.com/yashPundhir/Food_Restaurant_HomePage",
+	// 	live_link: "https://food-restaurant-homepage-sj.netlify.app/",
+	// },
+	// {
+	// 	name: "Law HomePage",
+	// 	description:
+	// 		"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+	// 	tags: [
+	// 		{
+	// 			name: "html",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "css",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: law,
+	// 	source_code_link: "https://github.com/yashPundhir/Law_HomePage",
+	// 	live_link: "https://law-homepage-sj.netlify.app/",
+	// },
+	// {
+	// 	name: "Digital Marketing HomePage",
+	// 	description:
+	// 		"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+	// 	tags: [
+	// 		{
+	// 			name: "html",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "css",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: digital,
+	// 	source_code_link:
+	// 		"https://github.com/yashPundhir/Digital_Marketing_HomePage",
+	// 	live_link: "https://digital-marketing-homepage-sj.netlify.app/",
+	// },
+	// {
+	// 	name: "Crypto Landing Page",
+	// 	description:
+	// 		"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+	// 	tags: [
+	// 		{
+	// 			name: "html",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "css",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: crypto,
+	// 	source_code_link: "https://github.com/yashPundhir/Crypto_Landing_Page",
+	// 	live_link: "https://crypto-landing-page-sj.netlify.app/",
+	// },
+	// {
+	// 	name: "Plant HomePage",
+	// 	description:
+	// 		"A Single Webpage which is made exactly same as the template image provided by the UI Designer using core HTML & CSS without any functionalities involved in it.",
+	// 	tags: [
+	// 		{
+	// 			name: "html",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "css",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: plant,
+	// 	source_code_link: "https://github.com/yashPundhir/Plant_HomePage",
+	// 	live_link: "https://plant-homepage-sj.netlify.app/",
+	// },
 	{
 		name: "Product HomePage",
 		description:
@@ -788,7 +788,7 @@ export {
 	technologies,
 	experiences,
 	testimonials,
-	projects,
+	// projects,
 	tailwindProjects,
 	htmlCssProjects,
 };
