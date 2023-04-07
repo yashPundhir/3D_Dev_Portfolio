@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
@@ -8,6 +8,24 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
+	const [windowSize, setWindowSize] = useState({
+		width: window.innerWidth,
+		height: window.innerHeight,
+	});
+
+	useEffect(() => {
+		function handleResize() {
+			console.log("contact us re rendered");
+			setWindowSize({
+				width: window.innerWidth,
+				height: window.innerHeight,
+			});
+		}
+
+		window.addEventListener("resize", handleResize);
+		handleResize();
+		return () => window.removeEventListener("resize", handleResize);
+	}, []);
 	const formRef = useRef();
 
 	const [form, setForm] = useState({
