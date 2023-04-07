@@ -6,7 +6,7 @@ import livelink from "../assets/livelink.svg";
 //import { tailwindProjects } from "../constants";
 import { fadeIn } from "../utils/motion";
 import { tailwindProjects } from "../constants";
-import { SectionWrapper } from "../hoc";
+import { SectionWrapperPC } from "../hoc";
 
 const ProjectCard = ({
 	index,
@@ -91,4 +91,4 @@ const ProjectCardTailwindCSS = () => {
 	);
 };
 
-export default SectionWrapper(ProjectCardTailwindCSS, "");
+export default SectionWrapperPC(ProjectCardTailwindCSS, "");
