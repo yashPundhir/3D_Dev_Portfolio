@@ -5,7 +5,7 @@ import { github } from "../assets";
 import livelink from "../assets/livelink.svg";
 import { htmlCssProjects } from "../constants";
 import { fadeIn } from "../utils/motion";
-import { SectionWrapper } from "../hoc";
+import { SectionWrapperPC } from "../hoc";
 
 const ProjectCard = ({
 	index,
@@ -90,4 +90,4 @@ const ProjectCardHTMLCSS = () => {
 	);
 };
 
-export default SectionWrapper(ProjectCardHTMLCSS, "");
+export default SectionWrapperPC(ProjectCardHTMLCSS, "");
