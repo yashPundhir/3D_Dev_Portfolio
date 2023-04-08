@@ -23,12 +23,12 @@ const SectionWrapperPC = (Component, idName) =>
 				key={key}
 				variants={staggerContainer()}
 				initial="hidden"
-				animate="show"
-				// whileInView={"show"}
-				// viewport={{
-				// 	once: true,
-				// 	amount: 0.01,
-				// }}
+				// animate="show"
+				whileInView={"show"}
+				viewport={{
+					once: true,
+					amount: 0.01,
+				}}
 				className={`${styles.paddingPC} max-w-7xl mx-auto relative z-0`}
 			>
 				{/* <span className="hash-span" id={idName}>
