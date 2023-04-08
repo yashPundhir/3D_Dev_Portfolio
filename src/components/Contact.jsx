@@ -4,28 +4,29 @@ import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
+import { SectionWrapperReRender } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
-	const [windowSize, setWindowSize] = useState({
-		width: window.innerWidth,
-		height: window.innerHeight,
-	});
+	// const [windowSize, setWindowSize] = useState({
+	// 	width: window.innerWidth,
+	// 	height: window.innerHeight,
+	// });
 
-	useEffect(() => {
-		function handleResize() {
-			console.log("contact us re rendered");
-			setWindowSize({
-				width: window.innerWidth,
-				height: window.innerHeight,
-			});
-		}
+	// useEffect(() => {
+	// 	function handleResize() {
+	// 		console.log("contact us re rendered");
+	// 		setWindowSize({
+	// 			width: window.innerWidth,
+	// 			height: window.innerHeight,
+	// 		});
+	// 	}
 
-		window.addEventListener("resize", handleResize);
-		handleResize();
-		return () => window.removeEventListener("resize", handleResize);
-	}, []);
+	// 	window.addEventListener("resize", handleResize);
+	// 	handleResize();
+	// 	return () => window.removeEventListener("resize", handleResize);
+	// }, []);
+
 	const formRef = useRef();
 
 	const [form, setForm] = useState({
@@ -184,4 +185,4 @@ const Contact = () => {
 	);
 };
 
-export default SectionWrapper(Contact, "contact");
+export default SectionWrapperReRender(Contact, "contact");
