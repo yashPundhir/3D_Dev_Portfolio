@@ -9,6 +9,7 @@ import {
 	css,
 	reactjs,
 	redux,
+	zustand,
 	tailwind,
 	nodejs,
 	mongodb,
@@ -111,9 +112,13 @@ const technologies = [
 		name: "React JS",
 		icon: reactjs,
 	},
+	// {
+	// 	name: "Redux Toolkit",
+	// 	icon: redux,
+	// },
 	{
-		name: "Redux Toolkit",
-		icon: redux,
+		name: "Zustand",
+		icon: zustand,
 	},
 
 	{
