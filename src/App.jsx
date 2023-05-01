@@ -38,7 +38,7 @@ const App = () => {
 							//value: "#ffffff",
 							value: "transparent",
 						},
-						image: "url('/src/assets/herobg.png')",
+						image: "url('./herobg.png')",
 						position: "center",
 						repeat: "no-repeat",
 						size: "cover",
