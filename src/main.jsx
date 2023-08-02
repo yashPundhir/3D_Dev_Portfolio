@@ -5,6 +5,8 @@ import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ProjectCardTailwindCSS from "./components/ProjectCardTailwindCSS";
 import ProjectCardHTMLCSS from "./components/ProjectCardHTMLCSS";
+import ProjectCardJS from "./components/ProjectCardJS";
+import ProjectCardReact from "./components/ProjectCardReact";
 
 const appRouter = createBrowserRouter([
 	{
@@ -22,6 +24,14 @@ const appRouter = createBrowserRouter([
 			{
 				path: "/tailwindcss",
 				element: <ProjectCardTailwindCSS />,
+			},
+			{
+				path: "/javascript",
+				element: <ProjectCardJS />,
+			},
+			{
+				path: "/react",
+				element: <ProjectCardReact />,
 			},
 			// {
 			// 	path: "/contact",
