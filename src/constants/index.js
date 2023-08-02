@@ -21,6 +21,19 @@ import {
 	tesla,
 	cognizant,
 	carrent,
+	shadeUp,
+	binary,
+	music,
+	video,
+	stop,
+	theme,
+	joke,
+	quote,
+	clip,
+	todo,
+	expense,
+	githubb,
+	ecomm,
 	jobit,
 	tripguide,
 	shopify,
@@ -43,7 +56,14 @@ import {
 	productdesign,
 	threejs,
 	express,
+	expressimg,
+	arrayimg,
+	restimg,
 } from "../assets";
+
+// import expressimg from "../assets/blogs/express.avif";
+// import arrayimg from "../assets/blogs/array.avif";
+// import restimg from "../assets/blogs/rest-and-spread.avif";
 
 export const navLinks = [
 	{
@@ -121,18 +141,18 @@ const technologies = [
 		icon: zustand,
 	},
 
-	{
-		name: "MongoDB",
-		icon: mongodb,
-	},
-	{
-		name: "Express JS",
-		icon: express,
-	},
-	{
-		name: "Node JS",
-		icon: nodejs,
-	},
+	// {
+	// 	name: "MongoDB",
+	// 	icon: mongodb,
+	// },
+	// {
+	// 	name: "Express JS",
+	// 	icon: express,
+	// },
+	// {
+	// 	name: "Node JS",
+	// 	icon: nodejs,
+	// },
 	// {
 	// 	name: "Three JS",
 	// 	icon: threejs,
@@ -207,30 +227,51 @@ const experiences = [
 	// },
 ];
 
+// const testimonials = [
+// 	{
+// 		testimonial:
+// 			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+// 		name: "Sara Lee",
+// 		designation: "CFO",
+// 		company: "Acme Co",
+// 		image: "https://randomuser.me/api/portraits/women/4.jpg",
+// 	},
+// 	{
+// 		testimonial:
+// 			"I've never met a web developer who truly cares about their clients' success like Rick does.",
+// 		name: "Chris Brown",
+// 		designation: "COO",
+// 		company: "DEF Corp",
+// 		image: "https://randomuser.me/api/portraits/men/5.jpg",
+// 	},
+// 	{
+// 		testimonial:
+// 			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+// 		name: "Lisa Wang",
+// 		designation: "CTO",
+// 		company: "456 Enterprises",
+// 		image: "https://randomuser.me/api/portraits/women/6.jpg",
+// 	},
+// ];
+
 const testimonials = [
 	{
-		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
+		name: "JavaScript Array & It's Methods",
+		image: arrayimg,
+		live_link:
+			"https://yashpundhir.hashnode.dev/javascript-array-and-its-methods",
 	},
 	{
-		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
+		name: "REST & SPREAD Operators in JavaScript",
+		image: restimg,
+		live_link:
+			"https://yashpundhir.hashnode.dev/rest-spread-operators-in-javascript",
 	},
 	{
-		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
+		name: "Getting Started with ExpressJS",
+		image: expressimg,
+		live_link:
+			"https://yashpundhir.hashnode.dev/getting-started-with-expressjs",
 	},
 ];
 
@@ -652,139 +693,305 @@ const tailwindProjects = [
 
 const jsProjects = [
 	{
-		name: "Car Rent",
+		name: "Music Player",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"A music player application with 2 static songs and has features like play/pause, next/prev, mute/unmute alongwith a circular progress bar.",
 		tags: [
 			{
-				name: "react",
+				name: "html",
 				color: "blue-text-gradient",
-			},
-			{
-				name: "mongodb",
-				color: "green-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "pink-text-gradient",
-			},
-		],
-		image: carrent,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
-	},
-	{
-		name: "Job IT",
-		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "restapi",
-				color: "green-text-gradient",
-			},
-			{
-				name: "scss",
-				color: "pink-text-gradient",
-			},
-		],
-		image: jobit,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
-	},
-	{
-		name: "Trip Guide",
-		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-		tags: [
-			{
-				name: "nextjs",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "supabase",
-				color: "green-text-gradient",
 			},
 			{
 				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "javascript",
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
+		image: music,
+		source_code_link: "https://github.com/yashPundhir/Music_Player",
+		live_link: "https://music-player-sj.netlify.app/",
+	},
+	{
+		name: "Video Player",
+		description:
+			"A Video Player application with 3 static videos and has features like play/pause, next/prev, mute/unmute alongwith a horizontal navigation bar.",
+		tags: [
+			{
+				name: "html",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "pink-text-gradient",
+			},
+		],
+		image: video,
+		source_code_link: "https://github.com/yashPundhir/Video_Player",
+		live_link: "https://video-player-sj.netlify.app/",
+	},
+	{
+		name: "Shade Up",
+		description:
+			"An interactive webpage that involves the conversion of colors from hexCode to RGB and vice-versa alongwith Random Color Picker.",
+		tags: [
+			{
+				name: "html",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "pink-text-gradient",
+			},
+		],
+		image: shadeUp,
+		source_code_link: "https://github.com/yashPundhir/Shade_Up",
+		live_link: "https://shade-up-sj.netlify.app/",
+	},
+	{
+		name: "Jokes Generator",
+		description:
+			"A simple website that fetches Jokes data from API and shows it on the webpage.",
+		tags: [
+			{
+				name: "html",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "pink-text-gradient",
+			},
+		],
+		image: joke,
+		source_code_link: "https://github.com/yashPundhir/Jokes_Generator-API",
+		live_link: "https://jokes-generator-api-sj.netlify.app/",
+	},
+	{
+		name: "Stopwatch App",
+		description:
+			"A simple Stopwatch App to track time and has features like play/pause and reset.",
+		tags: [
+			{
+				name: "html",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "pink-text-gradient",
+			},
+		],
+		image: stop,
+		source_code_link: "https://github.com/yashPundhir/Stopwatch_App",
+		live_link: "https://stopwatch-app-sj.netlify.app/",
+	},
+	{
+		name: "Theme Changer",
+		description:
+			"A simple webpage that involves the conversion of webpage from light mode to dark mode and vice versa",
+		tags: [
+			{
+				name: "html",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "pink-text-gradient",
+			},
+		],
+		image: theme,
+		source_code_link: "https://github.com/yashPundhir/Theme_Changer",
+		live_link: "https://theme-changer-sj.netlify.app/",
+	},
+	{
+		name: "Binary to Decimal Converter",
+		description:
+			"A simple webpage that involves the conversion of Binary number to Decimal number.",
+		tags: [
+			{
+				name: "html",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "pink-text-gradient",
+			},
+		],
+		image: binary,
+		source_code_link:
+			"https://github.com/yashPundhir/Binary_To_Decimal_Converter",
+		live_link: "https://binary-to-decimal-convertor-sj.netlify.app/",
+	},
+	{
+		name: "Random Quotes Generator",
+		description:
+			"A simple website that fetches Random Quotes data from API and shows it on the webpage.",
+		tags: [
+			{
+				name: "html",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "green-text-gradient",
+			},
+			{
+				name: "javascript",
+				color: "pink-text-gradient",
+			},
+		],
+		image: quote,
+		source_code_link: "https://github.com/yashPundhir/Random_Quotes_Generator",
+		live_link: "https://random-quotes-generator-sj.netlify.app/",
 	},
 ];
 
 const reactProjects = [
 	{
-		name: "Car Rent",
+		name: "Clips-Cave",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"A YouTube like video streaming application where the user can play the video, search for videos, filter out categories, etc.",
 		tags: [
 			{
-				name: "react",
+				name: "reactjs",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "rapidAPI",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "tailwind-css",
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
+		image: clip,
+		source_code_link: "https://github.com/yashPundhir/Clips-Cave",
+		live_link: "https://clips-cave-sj.netlify.app/",
 	},
 	{
-		name: "Job IT",
+		name: "Fit-Blitz",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"A Fitness & Gym Exercises application where the user can search for the exercise description related to a target muscle, body part, equipments, etc.",
 		tags: [
 			{
-				name: "react",
+				name: "reactjs",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "rapidAPI",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "tailwind-css",
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
+		image: clip,
+		source_code_link: "https://github.com/yashPundhir/FitBlitz",
+		live_link: "https://fit-blitz-sj.netlify.app/",
 	},
 	{
-		name: "Trip Guide",
+		name: "TODO App",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"A simple TODO App where the user can create a TODO, update it's status and delete it as well.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "reactjs",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
+				name: "tailwind-css",
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
+		image: todo,
+		source_code_link: "https://github.com/yashPundhir/Todo_App_React",
+		live_link: "https://todo-app-react-sj.netlify.app/",
+	},
+	{
+		name: "Expense Tracker App",
+		description:
+			"A simple Expense Tracker App where the user can create an Expense log, update it's contents, delete it as well as can check the total expenses.",
+		tags: [
+			{
+				name: "reactjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "zustand",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwind-css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: expense,
+		source_code_link:
+			"https://github.com/yashPundhir/Expense_Tracker_App_With_Zustand",
+		live_link: "https://expense-tracker-app-sj.netlify.app/",
+	},
+	{
+		name: "GitHUb User Finder App",
+		description:
+			"A simple App where the user can fetch the details about anyone public Github details by providing the corresponding username.",
+		tags: [
+			{
+				name: "reactjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "tailwind-css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: githubb,
+		source_code_link: "https://github.com/yashPundhir/GitHub_User_Finder",
+		live_link: "https://github-user-finder-sj.netlify.app/",
+	},
+	{
+		name: "E-Commerce Landing Page",
+		description:
+			"A simple webpage that fetches various e-comm products data from an API and displays it on the webpage.",
+		tags: [
+			{
+				name: "reactjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "tailwind-css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: ecomm,
+		source_code_link: "https://github.com/yashPundhir/E-Comm_Landing_Page",
+		live_link: "https://e-comm-landing-page-sj.netlify.app/",
 	},
 ];
 
@@ -796,4 +1003,6 @@ export {
 	// projects,
 	tailwindProjects,
 	htmlCssProjects,
+	jsProjects,
+	reactProjects,
 };
