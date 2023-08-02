@@ -38,6 +38,22 @@ import business from "./htmlcss/business.avif";
 import saas from "./htmlcss/saas.avif";
 import dance from "./htmlcss/dance.avif";
 import productdesign from "./htmlcss/productdesign.avif";
+import expressimg from "./blogs/express.avif";
+import arrayimg from "./blogs/array.avif";
+import restimg from "./blogs/rest-and-spread.avif";
+import shadeUp from "./javascript/shadeUp.avif";
+import binary from "./javascript/binary.avif";
+import music from "./javascript/music.avif";
+import video from "./javascript/video.avif";
+import stop from "./javascript/stop.avif";
+import theme from "./javascript/theme.avif";
+import joke from "./javascript/joke.avif";
+import quote from "./javascript/quote.avif";
+import clip from "./react/clip.avif";
+import todo from "./react/todo.avif";
+import expense from "./react/expense.avif";
+import githubb from "./react/github.avif";
+import ecomm from "./react/ecomm.avif";
 
 import meta from "./company/meta.png";
 //import shopify from "./company/shopify.png";
@@ -101,4 +117,20 @@ export {
 	saas,
 	dance,
 	productdesign,
+	expressimg,
+	arrayimg,
+	restimg,
+	shadeUp,
+	binary,
+	music,
+	video,
+	stop,
+	theme,
+	joke,
+	quote,
+	clip,
+	todo,
+	expense,
+	githubb,
+	ecomm,
 };
