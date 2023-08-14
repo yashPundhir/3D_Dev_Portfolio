@@ -50,6 +50,7 @@ import theme from "./javascript/theme.avif";
 import joke from "./javascript/joke.avif";
 import quote from "./javascript/quote.avif";
 import clip from "./react/clip.avif";
+import fit from "./react/fit.png";
 import todo from "./react/todo.avif";
 import expense from "./react/expense.avif";
 import githubb from "./react/github.avif";
@@ -129,6 +130,7 @@ export {
 	joke,
 	quote,
 	clip,
+	fit,
 	todo,
 	expense,
 	githubb,
