@@ -30,6 +30,7 @@ import {
 	joke,
 	quote,
 	clip,
+	ride,
 	fit,
 	todo,
 	expense,
@@ -873,6 +874,28 @@ const jsProjects = [
 ];
 
 const reactProjects = [
+	{
+		name: "Ride-Spectrum",
+		description:
+			"A Car Showcase Platform where users can search for any car model and get the corresponding details of that car.",
+		tags: [
+			{
+				name: "nextjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "rapidAPI",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwind-css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: ride,
+		source_code_link: "https://github.com/yashPundhir/Ride-Spectrum",
+		live_link: "https://ride-spectrum-sj.vercel.app/",
+	},
 	{
 		name: "Clips-Cave",
 		description:
