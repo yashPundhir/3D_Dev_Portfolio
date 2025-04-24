@@ -2,7 +2,7 @@
 
 ---
 
-## Project Screenshot
+## Project Screenshot:
 
 > ![SS](./SS.png)
 
